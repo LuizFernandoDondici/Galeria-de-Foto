@@ -1,0 +1,15 @@
+
+.alert-img{
+    display: none;
+    margin: -30px 0 0 0;
+    position: absolute;
+    width: 500px;
+}
+
+.msg-alert-img{
+    color: red;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+

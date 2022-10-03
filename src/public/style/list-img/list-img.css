@@ -1,0 +1,49 @@
+
+.list-img{
+    display: block;
+    padding: 0 30%;
+}
+
+#list-img{
+    width: 99%;
+}
+
+#td-img{
+    width: 10%;
+}
+
+#td-name-img{
+    max-width: 1px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+#td-delete-img{
+    text-align: right;
+    width: 10%;
+}
+
+#icon-img{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+#delete-img{
+    color: red;
+    text-decoration: none;
+}
+
+#td-name-img::-webkit-scrollbar{
+    height: 5px;
+}
+
+#td-name-img::-webkit-scrollbar-track-piece {
+    background-color: rgba(128, 128, 128, 0.128);
+    border-radius: 10px;
+}
+
+#td-name-img::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.256);
+    border-radius: 10px;
+}

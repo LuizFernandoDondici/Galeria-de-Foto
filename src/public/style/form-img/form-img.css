@@ -1,0 +1,48 @@
+
+.form-img{
+    display: block;
+    margin: 120px 0 30px 0;
+    padding: 0 30%;
+}
+
+#form-img{
+    width: 100%;
+}
+
+#input-save-name{
+    display: block;
+    margin: 0 0 10px 0;
+    outline: 0;
+    padding: 5px 0 5px 5px;
+    width: 99%;
+}
+
+#file-save-img{
+    display: inline-block;
+    margin: 5px;
+}
+
+#btn-save-img{
+    background-color: blue;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+    display: block;
+    float: right;
+    padding: 5px 0;
+    width: 100px;
+}
+
+#btn-save-img:hover{
+    background-color: mediumblue;
+}
+
+
+@media(max-width: 1000px) {
+
+    #btn-save-img{
+        float: left;
+        margin: 0 0 0 4px;
+        width: 116px;
+    } 
+}
