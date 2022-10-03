@@ -12,17 +12,17 @@ class Photo
 {
 
     #[Id]
-	#[GeneratedValue]
-	#[Column]
-	private int $id;
+    #[GeneratedValue]
+    #[Column]
+    private int $id;
 
-	#[Column]
-	private string $path;
+    #[Column]
+    private string $path;
 
-	#[Column]
-	private string $name;
-    
-	public function __construct($path, $name)
+    #[Column]
+    private string $name;
+
+    public function __construct($path, $name)
     {
         $this->path = $path;
         $this->name = $name;
